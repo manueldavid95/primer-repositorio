@@ -1,0 +1,237 @@
+/* estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Lobster Two', cursive;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  background: var(--color_negro);
+}
+:root {
+  --color_dorado: #FDCB9E;
+  --color_negro: #1B262C;
+}
+
+
+/* estilos para el header */
+.header {
+  width: 100%;
+  min-width: 320px;
+  height: 284px;
+  display: flex;
+  flex-direction: column;
+}
+.header-logo {
+  align-self: center;
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+}
+.header-contenido {
+  align-self: center;
+  min-width: 288px;
+  min-height: 113px;
+  margin-top: 20px;
+  text-align: center;
+}
+.header-titulo {
+  position: relative;
+  font-weight: 700;
+  font-size: 3.8rem;
+  text-transform: capitalize;
+  color: var(--color_dorado);
+}
+.header-parrafo {
+  margin: 10px 0;
+  font-size: 2.6rem;
+  color: var(--color_dorado);
+}
+.header-btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  color: var(--color_negro);
+  background: var(--color_dorado);
+  border-radius: 10px;
+}
+/* fin header */
+
+
+/* habilidades */
+.habilidades {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 30px 0;
+  background: var(--color_dorado);
+}
+.titulo-habilidades {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 3rem;
+  color: var(--color_negro);
+  margin-bottom: 25px;
+}
+.habilidades-contenido {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+}
+.habilidades-contenido article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 90%;
+  min-width: 288px;
+  max-width: 320px;
+  min-height: 190px;
+  margin: 16px 0;
+  padding: 30px;
+  background: var(--color_negro);
+  border-radius: 15px;
+}
+.habilidades-contenido .icono-1 {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/iconos/logo_html5.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.habilidades-contenido .icono-2 {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/iconos/css.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.habilidades-contenido .icono-3 {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/iconos/pc.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.habilidades-contenido article h3 {
+  margin: 10px 0;
+  color: var(--color_dorado);
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.habilidades-contenido article p {
+  color: var(--color_dorado);
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+
+
+/* sobre-mi */
+.sobre-mi {
+  width: 100%;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+.sobre-mi-img {
+  align-self: center;
+  margin-top: 50px;
+  width: 182px;
+  height: 148px;
+  background: url(../img/imagen_1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sobre-mi-informacion {
+  min-width: 288px;
+  max-width: 600px;
+  align-self: center;
+  text-align: center;
+  margin-top: 20px;
+  padding: 30px;
+}
+.sobre-mi-informacion h2 {
+  font-size: 2.8rem;
+  color: var(--color_dorado);
+  margin-bottom: 10px;
+}
+.sobre-mi-informacion p {
+  color: var(--color_dorado);
+  font-size: 2rem;
+}
+/* fin sobre mi */
+
+/* hero */
+.hero {
+  width: 100%;
+  min-width: 320px;
+  padding: 25px;
+  background: var(--color_dorado);
+  text-align: center;
+}
+.hero p {
+  font-size: 2rem;
+}
+/* fin hero */
+
+
+/* contacto */
+.contacto {
+  padding: 20px;
+  width: 100%;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+.contacto-img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-self: center;
+  width: 182px;
+  height: 148px;
+  background-image: url(../img/imagen_2.svg);
+  background-position: center;
+  background-size: cover;
+}
+.contacto-titulo {
+  align-self: center;
+  text-align: center;
+  color: var(--color_dorado);
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+.contacto-enlaces {
+  min-width: 288px;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contacto-enlaces-item a {
+  color: var(--color_dorado);
+  font-size: 24px;
+}
+/* fin contacto */
+
+
+/* footer */
+footer {
+  width: 100%;
+  min-width: 320px;
+  background-color: var(--color_dorado);
+  padding: 10px;
+  text-align: center;
+}
+footer img {
+  width: 60px;
+  height: 60px;
+  vertical-align: top;
+}

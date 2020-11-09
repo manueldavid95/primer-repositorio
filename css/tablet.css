@@ -1,0 +1,88 @@
+/* header */
+.header {
+  min-height: 450px;
+  justify-content: center;
+}
+/* fin header */
+
+
+/* habilidades */
+.habilidades {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.titulo-habilidades {
+  width: 260px;
+  margin: 0 auto;
+  font-size: 4rem;
+  position: relative;
+}
+.habilidades-contenido  {
+  flex-direction: row;
+  justify-content: space-around;
+}
+.habilidades-contenido article {
+  transition: transform 0.5s;
+  margin: 0;
+}
+.habilidades-contenido article:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+/* fin habilidades */
+
+
+/* Sobre mi */
+.sobre-mi {
+  height: 450px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.sobre-mi-img {
+  width: 318px;
+  height: 263px;
+  transition: transform 0.5s;
+}
+.sobre-mi-img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+/* fin sobre mi */
+
+
+/* hero p */
+.hero {
+  padding: 30px;
+}
+.hero p {
+  font-size: 4rem;
+}
+
+/* contacto */
+.contacto {
+  height: 450px;
+  justify-content: center;
+}
+.contacto-img {
+  width: 318px;
+  height: 263px;
+}
+.contacto-titulo {
+  font-size: 4rem;
+}
+.contacto-enlaces-item a {
+  display: inline-block;
+  font-size: 4rem;
+  transition: transform 0.5s;
+}
+.contacto-enlaces-item a:hover {
+  transform: scale(1.1);
+}
+
+
+/* footer */
+footer {
+  padding: 2 0px;
+}
