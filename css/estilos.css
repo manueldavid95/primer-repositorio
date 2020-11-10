@@ -15,6 +15,7 @@ body {
 :root {
   --color_dorado: #FDCB9E;
   --color_negro: #1B262C;
+  --segunda_fuente : 'Open Sans', sans-serif;
 }
 
 
@@ -48,14 +49,16 @@ body {
 }
 .header-parrafo {
   margin: 10px 0;
-  font-size: 2.6rem;
+  font-size: 2rem;
+  font-family: var(--segunda_fuente);
   color: var(--color_dorado);
 }
 .header-btn {
   display: inline-block;
   text-decoration: none;
   padding: 1rem 3rem;
-  font-size: 2rem;
+  font-size: 1.6rem;
+  font-family: var(--segunda_fuente);
   color: var(--color_negro);
   background: var(--color_dorado);
   border-radius: 10px;
@@ -125,10 +128,11 @@ body {
   margin: 10px 0;
   color: var(--color_dorado);
   font-size: 2.5rem;
-  text-transform: uppercase;
+  /* text-transform: capitalize; */
 }
 .habilidades-contenido article p {
   color: var(--color_dorado);
+  font-family: var(--segunda_fuente);
   font-size: 1.8rem;
   text-transform: capitalize;
 }
@@ -159,13 +163,15 @@ body {
   padding: 30px;
 }
 .sobre-mi-informacion h2 {
-  font-size: 2.8rem;
+  font-size: 3.2rem;
   color: var(--color_dorado);
   margin-bottom: 10px;
 }
 .sobre-mi-informacion p {
   color: var(--color_dorado);
   font-size: 2rem;
+  font-family: var(--segunda_fuente);
+  line-height: 30px;
 }
 /* fin sobre mi */
 

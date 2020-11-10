@@ -3,6 +3,12 @@
   min-height: 450px;
   justify-content: center;
 }
+.header-btn {
+  transition: opacity 0.4s;
+}
+.header-btn:hover {
+  opacity: 0.9;
+}
 /* fin header */
 
 
